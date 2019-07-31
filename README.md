@@ -11,18 +11,19 @@ Before starting work on firebase, you setup Slack
 ## How to deploy to firebase
 * Review [getting started doc](https://firebase.google.com/docs/functions/get-started)
 
-* ```bash
+```bash
     $ firebase login
 ```
 
-* ```bash 
+```bash 
     $ firebase deploy --only functions
 ```
 
 ## how to add/get configs to firebase
-* ```bash
+```bash
     $ firebase functions:config:set slack.access_token=XXXXXXXX
 ```
-* ```bash 
+
+```bash 
     $ firebase functions:config:get
 ```
